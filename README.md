@@ -5,7 +5,7 @@ Designed to demonstrate file I/O, structured data modeling, and basic log analys
 
 ---
 
-## 📸 Example Output
+##  Example Output
 
 ```
 Total log entries: 5
@@ -18,7 +18,7 @@ Jan 10 sudo -> user1 executed command
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Parses auth.log–style entries
 * Structured log storage using C++ structs
@@ -30,7 +30,7 @@ Jan 10 sudo -> user1 executed command
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category        | Tools                                  |
 | --------------- | -------------------------------------- |
@@ -60,7 +60,7 @@ cpp-log-analyzer/
 
 ## 🔧 Build
 
-### Using Makefile (recommended)
+### Using Makefile
 
 ```bash
 make
@@ -74,7 +74,7 @@ g++ -std=c++17 -Wall src/main.cpp -o log_analyzer
 
 ---
 
-## ▶️ Run
+##  Run
 
 ### Windows
 
@@ -90,7 +90,7 @@ g++ -std=c++17 -Wall src/main.cpp -o log_analyzer
 
 ---
 
-## 🧠 What This Project Demonstrates
+##   Project Demonstrates
 
 * File input/output in C++
 * Struct-based data modeling
@@ -116,32 +116,20 @@ Jan 10 10:15:32 server sshd: Accepted password for user1
 
 Planned enhancements:
 
-* [ ] Failed login counter
-* [ ] User search/filter
-* [ ] Date range filtering
-* [ ] Summary statistics dashboard
-* [ ] Unit tests
+*  Failed login counter
+*  User search/filter
+*  Date range filtering
+*  Summary statistics dashboard
+*  Unit tests
 
 ---
 
-## 🧪 How to Extend
 
-Good beginner extensions:
-
-* Count failed SSH attempts
-* Identify most active users
-* Detect suspicious login patterns
-* Add command-line arguments
-
----
-
-## 👤 Author
+ Author
 
 **Jawad Lazuk**
 
----
 
-## ⭐ Notes
 
-This project was built as part of early C++ and software development practice, focusing on clean code structure and real-world style log processing.
+
 
